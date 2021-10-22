@@ -1,5 +1,4 @@
 import React, { createContext, useState } from 'react'
-import { axiosClient } from '../util/AxiosInstance'
 
 type AuthContextType = {
   isAuthenticated: boolean
